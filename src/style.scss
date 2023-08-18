@@ -17,7 +17,7 @@
 }
 
 .formContainer {
-    background-color: #a7bcff;
+    background-color: #047BD5;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -33,14 +33,14 @@
         align-items: center;
 
         .title {
-            color: #5d5b8d;
+            color: black;
             font-weight: bold;
             font-size: 24px;
 
         }
 
         .register {
-            color: #5d5b8d;
+            color: rgb(137, 135, 135);
             font-size: 12px;
         }
 
@@ -53,7 +53,7 @@
                 padding: 15px;
                 border: none;
                 width: 250px;
-                border-bottom: 1px solid #a7bcff;
+                border-bottom: 1px solid #92caf3;
 
                 &::placeholder {
                     color: rgb(175, 175, 175);
@@ -61,7 +61,7 @@
             }
 
             button {
-                background-color: #7b96ec;
+                background-color: #047BD5;
                 color: white;
                 padding: 10px;
                 font-weight: bold;
@@ -74,7 +74,7 @@
                 align-items: center;
                 gap: 10px;
                 font-size: 12px;
-                color: #8da4f1;
+                color: black;
 
                 img {
                     width: 32px;
@@ -83,7 +83,7 @@
         }
 
         p {
-            color: #5d5b8d;
+            color: black;
             font-size: 12px;
             margin: 10px;
         }
@@ -91,7 +91,7 @@
 }
 
 .home {
-    background-color: #a7bcff;
+    background-color: #047BD5;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -111,18 +111,18 @@
 
         .sidebar {
             flex: 1;
-            border-right: 1px solid #3e3c61;
-            background-color: #3e3c61;
+            border-right: 1px solid #c6c6c6;
+            background-color: white;
             position: relative;
 
             .navbar {
                 display: flex;
                 align-items: center;
-                background-color: #2f2d52;
+                background-color: #e2e2e2;
                 height: 50px;
                 padding: 10px;
                 justify-content: space-between;
-                color: #ddddf7;
+                color: black;
 
                 .title {
                     font-weight: bold;
@@ -145,7 +145,7 @@
                     }
 
                     button {
-                        background-color: #5d5b8d;
+                        background-color: #047BD5;
                         color: #ddddf7;
                         font-size: 10px;
                         border: none;
@@ -161,7 +161,7 @@
             }
 
             .search {
-                border-bottom: 1px solid gray;
+                border-bottom: 1px solid #c6c6c6;
 
                 .searchForm {
                     padding: 10px;
@@ -169,11 +169,11 @@
                     input {
                         background-color: transparent;
                         border: none;
-                        color: white;
+                        color: black;
                         outline: none;
 
                         &::placeholder {
-                            color: lightgray;
+                            color: #8b8b8b;
                         }
                     }
                 }
@@ -184,11 +184,12 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
-                color: white;
+                color: black;
                 cursor: pointer;
+                // border-bottom: 1px solid #c6c6c6;
 
                 &:hover {
-                    background-color: #2f2d52;
+                    background-color: #92caf3;
                 }
 
                 img {
@@ -207,7 +208,7 @@
 
                     p {
                         font-size: 14px;
-                        color: lightgrey;
+                        color: #5c5c5c;
                     }
                 }
             }
@@ -218,16 +219,16 @@
 
             .chatInfo {
                 height: 50px;
-                background-color: #5d5b8d;
+                background-color: #e2e2e2;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px;
-                color: lightgray;
+                color: black;
             }
 
             .messages {
-                background-color: #ddddf7;
+                background-color: #fbf6c5;
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow-y: scroll;
@@ -277,8 +278,8 @@
                             align-items: flex-end;
 
                             p {
-                                background-color: #8da4f1;
-                                color: white;
+                                background-color: #92caf3;
+                                color: #5c5c5c;
                                 border-radius: 10px 0px 10px 10px;
                             }
 
@@ -291,7 +292,7 @@
 
             .input {
                 height: 50px;
-                background-color: white;
+                background-color: #e2e2e2;
                 padding: 10px;
                 display: flex;
                 align-items: center;
@@ -302,10 +303,11 @@
                     border: none;
                     outline: none;
                     font-size: 18px;
-                    color: #2f2d52;
+                    color: black;
+                    background-color: #e2e2e2;
 
                     &::placeholder {
-                        color: lightgray;
+                        color: #8b8b8b;
 
                     }
                 }
@@ -324,7 +326,7 @@
                         border: none;
                         padding: 10px 15px;
                         color: white;
-                        background-color: #8da4f1;
+                        background-color: #047BD5;
                         cursor: pointer;
                     }
                 }
