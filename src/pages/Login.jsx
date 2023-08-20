@@ -22,7 +22,7 @@ const Login = () => {
     return (
         <div className='formContainer'>
             <div className='formWrapper'>
-                <span className='title'>Chit-Chat</span>
+                <span className='title'>Tailor-Chat</span>
                 <span className='register'>Login</span>
                 <form onSubmit={handleSubmit}>
                     <input type='email' placeholder='email'></input>
